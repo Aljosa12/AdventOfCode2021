@@ -21,6 +21,8 @@ function calc(input) {
     }
 
     console.log(gamma, epsilon);
+    let res = parseInt(gamma, 2) * parseInt(epsilon, 2);
+    return res;
 }
 
 calc(inputs);
