@@ -1,4 +1,4 @@
-import { inputs, qwert } from './inputs.js';
+import { inputs, qwert } from './inputs3.js';
 
 let counter = 0;
 
@@ -20,8 +20,9 @@ function calc(input) {
         gamma[i] === '1' ? (epsilon += '0') : (epsilon += '1');
     }
 
-    console.log(gamma, epsilon);
     let res = parseInt(gamma, 2) * parseInt(epsilon, 2);
+    console.log(res);
+
     return res;
 }
 

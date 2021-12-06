@@ -1,4 +1,4 @@
-import { inputs } from './inputs.js';
+import { inputs } from './inputs3.js';
 let inp = [];
 for (let i = 0; i < inputs.length; i++) {
     inp.push(inputs[i]);
