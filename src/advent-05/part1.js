@@ -1,4 +1,4 @@
-import { coordinates, cord } from './inputs5.js';
+import { coordinates } from './inputs5.js';
 
 const matrix = [];
 
