@@ -7,6 +7,7 @@ function calc(input) {
         res;
 
     for (let i = 0; i < input.length; i++) {
+        console.log('test');
         switch (inputs[i][0]) {
             case 'forward':
                 horizontalPos += inputs[i][1];
